@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    width: 30%;
+    padding-right: 8px;
+}
+.post_box {
+    padding-top: 8px;
+    padding-right: 8px;
+    textarea {
+        height: 200px;
+        width: 100%;
+    }
+    .post_box_action {
+        text-align: right;
+        button {
+            width: 100px;
+        }
+    }
+}
+.right {
+    width: 70%;
+    .right_menu {
+        background-color: #ccFfcc;
+    }
+}
+
+.status {
+    border-bottom: 1px solid #c0c0c0;
+}
+.status_poster {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    .poster {
+        font-weight: 700;
+        color: #000;
+    }
+}
+.status_posted {
+    text-align: right;
+    .posted_time {
+        font-size: 0.7em;
+        color: #bbbbbb;
+    }
+    .delete_link {
+        font-size: 0.7em;
+        color: #bbbbbb;
+    }
+}

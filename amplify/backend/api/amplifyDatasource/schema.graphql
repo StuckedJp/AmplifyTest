@@ -1,0 +1,15 @@
+type Status
+  @model
+  @auth(
+    rules: [
+      {
+        allow: owner,
+        operations: [create, update, delete, read]
+      }
+    ])
+{
+  id: ID!
+  posted: AWSDateTime!
+  content: String!
+  poster: String!
+}

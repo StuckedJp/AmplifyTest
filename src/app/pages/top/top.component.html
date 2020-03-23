@@ -1,0 +1,29 @@
+<div class="wrapper">
+  <div class="left">
+    <div class="post_box" *ngIf="isLoggedIn()">
+      <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+        <textarea placeholder="何しとんじゃわれぇ" formControlName="status"></textarea>
+        <div class="post_box_action">
+          <button type="submit">投稿</button>
+        </div>
+      </form>
+    </div>
+    <div *ngIf="!isLoggedIn()">
+      <p>今なら無料! 今すぐ契約!!</p>
+    </div>
+  </div>
+  <div class="right">
+    <div class="contents">
+      <div class="status" *ngFor="let status of data | async">
+        <div class="status_poster"><span class="poster">{{status.poster}}</span></div>
+        <div class="status_inner">
+          <div class="status_content">{{status.content}}</div>
+          <div class="status_posted">
+            <a class="delete_link" href="javascript:void(0);" (click)="doDelete(status.id)">Delete</a>&nbsp;
+            <span class="posted_time">{{status.posted}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

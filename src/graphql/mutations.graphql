@@ -1,0 +1,46 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateStatus(
+  $input: CreateStatusInput!
+  $condition: ModelStatusConditionInput
+) {
+  createStatus(input: $input, condition: $condition) {
+    id
+    posted
+    content
+    poster
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
+mutation UpdateStatus(
+  $input: UpdateStatusInput!
+  $condition: ModelStatusConditionInput
+) {
+  updateStatus(input: $input, condition: $condition) {
+    id
+    posted
+    content
+    poster
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
+mutation DeleteStatus(
+  $input: DeleteStatusInput!
+  $condition: ModelStatusConditionInput
+) {
+  deleteStatus(input: $input, condition: $condition) {
+    id
+    posted
+    content
+    poster
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}

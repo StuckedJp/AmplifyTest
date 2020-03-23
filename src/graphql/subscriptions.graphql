@@ -1,0 +1,37 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateStatus($owner: String!) {
+  onCreateStatus(owner: $owner) {
+    id
+    posted
+    content
+    poster
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
+subscription OnUpdateStatus($owner: String!) {
+  onUpdateStatus(owner: $owner) {
+    id
+    posted
+    content
+    poster
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}
+subscription OnDeleteStatus($owner: String!) {
+  onDeleteStatus(owner: $owner) {
+    id
+    posted
+    content
+    poster
+    _version
+    _deleted
+    _lastChangedAt
+    owner
+  }
+}

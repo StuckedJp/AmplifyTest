@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <header>
+    <div class="header_wrapper">
+      <div>
+        <h1><a [routerLink]="['/']">Amplify Test</a></h1>
+      </div>
+      <div class="menu">
+        <p *ngIf="!isLoggedIn()"><a [routerLink]="['/auth']">Login</a></p>
+        <p *ngIf="isLoggedIn()"><a (click)="logout()">Logout</a></p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>

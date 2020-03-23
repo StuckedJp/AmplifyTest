@@ -1,0 +1,27 @@
+header {
+    background-color: #338e33;
+    width: 100%;
+    div.header_wrapper {
+        width: 800px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 8px;
+    }
+    div.menu{
+        width: 70px;
+        margin-left: auto;
+        color: white;
+        text-align: right;
+        padding-right: 8px;
+    }
+    h1 {
+        color: white;
+        display: inline;
+        padding-left: 8px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

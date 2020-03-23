@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-sakai-amplify-test-dev-60130-authRole",
+            "UnauthRoleArn": "arn:aws:iam::551098032082:role/amplify-sakai-amplify-test-dev-60130-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::551098032082:role/amplify-sakai-amplify-test-dev-60130-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-sakai-amplify-test-dev-60130-deployment",
+            "UnauthRoleName": "amplify-sakai-amplify-test-dev-60130-unauthRole",
+            "StackName": "amplify-sakai-amplify-test-dev-60130",
+            "StackId": "arn:aws:cloudformation:us-east-1:551098032082:stack/amplify-sakai-amplify-test-dev-60130/c0ee6030-6ccb-11ea-99be-12193276ecaf",
+            "AmplifyAppId": "d2zwsmiyfak6ns"
+        },
+        "categories": {
+            "auth": {
+                "sakaiamplifytestcce6b8e1": {}
+            }
+        }
+    }
+}
